@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "${modId}",
+	"version": "${modVersion}",
+	"name": "${modName}",
+	"description": "MC-264204 fix.",
+	"authors": [
+		"${author}"
+	],
+	"contact": {
+		"sources": "${repoUrl}"
+	},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.diskree.mc264204fix.MC264204Fix"
+		]
+	},
+	"mixins": [
+		"mc264204fix.mixin.json"
+	],
+	"depends": {
+		"java": ">=${minJavaVersion}",
+		"minecraft": ">=${minMinecraftVersion}",
+		"fabricloader": ">=${minLoaderVersion}"
+	},
+	"accessWidener": "mc264204fix.accesswidener"
+}
