@@ -11,6 +11,7 @@
 		"sources": "${repoUrl}"
 	},
 	"license": "MIT",
+	"icon": "assets/mc264204fix/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
